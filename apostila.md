@@ -7,7 +7,7 @@
 ### Estrutura de um programa Java
 
 ```java
-public class MeuApp {
+class MeuApp {
 
     // Comentário
 
@@ -122,9 +122,7 @@ No Java, sempre que você declara uma variável, você tem que dizer para ele qu
 
 Os tipos básicos de dados são:
 
-#### Tipos primitivos
-
-##### char
+#### char
 Caracteres simples, delimitados por aspas simples.
 
 Existem alguns caracteres especiais, como '\n' (quebra de linha), '\t' (tab).
@@ -135,7 +133,7 @@ Exemplos:
 
 'a', 'z', '0', '9', '\n', '\t'
 
-##### byte, short, int e long
+#### byte, short, int e long
 
 Representam números inteiros negativos e positivos.
 Suas diferenças estão nos quanto ocupam em memória e nos seus limites.
@@ -144,7 +142,7 @@ Por padrão, ao simplesmente digitar um número, o Java o interpreta como um int
 
 Os limites de cada um deles com exemplos pode ser encontrado [aqui](https://www.baeldung.com/java-primitives)
 
-##### float e double
+#### float e double
 
 Representam valores "quebrados", como 0.5, 0.226, -58.3, etc. 
 
@@ -173,14 +171,14 @@ String nome = "Agata";
 int idade = 22;
 LocalDateTime dataCadastro = LocalDateTime.now();
 
-String mensagem = "Bom diaaa \\o/";
+String mensagem = "Bom diaaa";
 
 System.out.println("id: " + id + "\n" +
         "nome: " + nome + "\n" +
         "idade: " + idade + "\n" +
         "dataCadastro: " + dataCadastro + "\n");
 
-System.out.println("_/\\/\\__" + mensagem + "-_/\\/\\_");
+System.out.println("__" + mensagem + "__");
 
 \*
 id: 1
@@ -188,7 +186,7 @@ nome: Agata
 idade: 22
 dataCadastro: 2021-04-01T00:36:34.140774
 
-_/\/\__Bom diaaa \o/-_/\/\_
+__Bom diaaa__
 */
 
 ```
